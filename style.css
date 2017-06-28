@@ -1,0 +1,107 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  background-image: url("img/bg.jpg");
+  padding: 2em;
+}
+body>div{
+  padding: 20 px;
+  Width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  border: 1px solid #ff8523;
+
+}
+#site_header {
+  background-color: #ff8523;
+  padding: 40px;
+}
+
+#logo {
+  /*margin-left: 10px;
+  margin-top: 20px;
+  padding: 10px;*/
+}
+
+.main_navigation a{
+  padding: .5em 2em;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+h2 {
+  color: #1fabe5;
+
+
+}
+
+p {
+  padding: 30px;
+}
+
+table {
+  border: .5px solid #1fabe5;
+
+  text-align: center;
+  border-collapse: collapse;
+  padding: 20px;
+
+}
+img {
+  max-width: 70%;
+}
+td {
+  border: .5px solid #1fabe5;
+}
+thead {
+  background-color: #1fabe5;
+  color: white;
+  border: .5px solid #000000;
+  border-collapse: collapse;
+  padding: 10px;
+  /*border: 1px solid #000000;*/
+
+}
+tbody {
+  border: .5px solid #1fabe5;
+  width: 30%;
+  text-align: center;
+}
+
+.name {
+  background-color: #ff8523;
+  padding: 40px;
+  color: white;
+}
+
+form {
+  background-color: #dddddd;
+  
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  text-transform: uppercase;
+}
